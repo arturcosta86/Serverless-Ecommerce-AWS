@@ -1,0 +1,10 @@
+#pedido-finalizado h3 {
+  margin-top: 1.5rem;
+}
+.status-pagamento {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #fff3cd;
+  border-radius: 8px;
+  font-weight: 500;
+}

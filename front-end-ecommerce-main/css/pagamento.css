@@ -1,0 +1,74 @@
+.formulario-pagamento h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: var(--dark-text);
+}
+
+.formulario-pagamento .form-group {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.formulario-pagamento label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.formulario-pagamento input {
+  width: 100%;
+  padding: 0.9rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formulario-pagamento input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(87, 48, 144, 0.2);
+}
+
+/* --- ESTILO RESTAURADO PARA AS COLUNAS --- */
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+/* --- FIM DO ESTILO RESTAURADO --- */
+
+.formulario-pagamento button {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+  background-color: var(--success-color);
+}
+
+.formulario-pagamento button:hover {
+    background-color: #218838;
+}
+
+.sucesso {
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  font-weight: 500;
+  text-align: center;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+/* Adiciona responsividade para telas menores */
+@media (max-width: 480px) {
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}

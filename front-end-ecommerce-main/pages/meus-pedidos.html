@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Pedidos - Loja Serverless</title>
+    <link rel="stylesheet" href="../css/estilo.css" />
+    <link rel="stylesheet" href="../css/meus-pedidos.css" />
+</head>
+<body>
+    <header>
+        <h1>📋 Meus Pedidos</h1>
+        <p>Acompanhe o histórico de todas as suas compras.</p>
+    </header>
+    <main>
+        <div class="content-card">
+            <div id="lista-pedidos">
+                <!-- O conteúdo dos pedidos será gerado aqui pelo JavaScript -->
+            </div>
+            <a href="/index.html" class="btn novo-pedido-btn">Fazer Novo Pedido</a>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 Loja Serverless | Um projeto de Artur Costa para a Escola da Nuvem</p>
+    </footer>
+
+    <!-- 
+      ==================================================================
+      AJUSTE CRÍTICO APLICADO AQUI:
+      A linha abaixo agora aponta para "meus-pedidos-v2.js" para forçar 
+      o CloudFront e o navegador a buscarem o arquivo novo.
+      ==================================================================
+    -->
+    <script src="../js/meus-pedidos-v2.js"></script>
+
+</body>
+</html>
